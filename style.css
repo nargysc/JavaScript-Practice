@@ -1,0 +1,60 @@
+* {
+    height:80%;
+    background-color: #F0DB4F;
+    color:#323330;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 9em;
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+    animation: color-change 3s infinite;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: rgb(35, 35, 39);
+      }
+      10% {
+        color: #6d5a75;
+      }
+      20% {
+        color: #1abc9c;
+      }
+      30% {
+        color: #d35400;
+      }
+      40% {
+        color: rgb(199, 199, 255);
+      }
+      50% {
+        color: #34495e;
+      }
+      60% {
+        color: rgb(166, 166, 233);
+      }
+      70% {
+        color: #2980b9;
+      }
+      80% {
+        color: #f1c40f;
+      }
+      90% {
+        color: #2980b9;
+      }
+      100% {
+        color: pink;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      body {
+        width: 100%;
+      }
+      h1 {
+        font-size: 5em;
+      }
+    }
